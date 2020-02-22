@@ -1,0 +1,348 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+footer {
+  padding-top: 25%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(241, 80, 107);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("projektheader.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  width: 100vw;
+  height: 13%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+}
+
+#navUl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 20px 10px;
+}
+
+.navLi {
+  color: rgb(241, 80, 107);
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  padding: 0px 70px;
+}
+
+span {
+  color: rgba(10, 10, 10, 0.788);
+  padding: 0px 5px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(241, 80, 107);
+  opacity: 5;
+  margin-top: -10px;
+}
+
+h2 {
+  display: flex;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#h2span {
+  color: rgba(133, 130, 130, 0.342);
+  padding: 10px 30px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#basketBtn {
+  font-size: 30px;
+  border: none;
+  background-color: rgb(241, 80, 107);
+  color: white;
+  box-shadow: -6px 6px 7px 0px rgba(0, 0, 0, 0.18);
+}
+
+section {
+  display: flex;
+  height: 100%;
+  width: 27%;
+  background-color: whitesmoke;
+  color: rgba(7, 7, 7, 0.692);
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: -6px 6px 7px 0px rgba(0, 0, 0, 0.18);
+}
+
+.basketH2 {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#basketList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6%;
+}
+
+.basketLi {
+  margin: 0px;
+  padding: 0px;
+  height: 15vh;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basketIMG {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.nameP {
+  position: absolute;
+  top: 4vh;
+  left: 2vw;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.priceP {
+  position: absolute;
+  top: 4vh;
+  left: 17vw;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.removeBtn {
+  position: absolute;
+  left: 0px;
+  border: none;
+  color: rgb(241, 80, 107);
+  padding: 1%;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.removeBtn:hover {
+  color: white;
+}
+
+#order {
+  background-color: rgb(241, 80, 107);
+  border: none;
+  color: whitesmoke;
+  width: 100%;
+  height: 6vh;
+  font-size: 20px;
+}
+
+#order:hover {
+  background-color: rgb(197, 64, 86);
+}
+
+#clear {
+  width: 30%;
+  height: 4vh;
+  color: whitesmoke;
+  border: none;
+  background-color: rgb(241, 80, 107);
+  margin-left: 6%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+#clear:hover {
+  background-color: rgb(197, 64, 86);
+}
+
+#total {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.74);
+  text-align: center;
+  margin-bottom: 0%;
+  padding: 20px 0px 20px 0px;
+}
+
+#basketBtn {
+  height: 50px;
+  width: 50px;
+}
+
+#basketBtn:hover {
+  background-color: rgb(197, 64, 86);
+}
+
+#productList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2%;
+  width: 70vw;
+  margin: 50px 0px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 20vw;
+  white-space: nowrap;
+  height: 160px;
+  margin-bottom: 12px;
+}
+
+.dishP {
+  text-align: left;
+  margin-right: 10%;
+}
+
+#headingText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(241, 80, 107);
+}
+
+.buyBtn {
+  padding: 0px 12px;
+  margin-top: 40%;
+  margin-left: 10px;
+  background-color: rgb(241, 80, 107);
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 15px;
+  white-space: nowrap;
+  height: 43px;
+}
+
+.buyBtn:hover {
+  background-color: rgb(197, 64, 86);
+}
+
+.qtyInput {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 40%;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid rgb(241, 80, 107);
+}
+
+.basketInput {
+  position: absolute;
+  text-align: center;
+  font-size: 15px;
+  padding: 1px;
+  margin-top: -12px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 25%;
+  font-size: larger;
+  align-self: center;
+  bottom: 0px;
+  background-color: rgb(241, 80, 107);
+  color: whitesmoke;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.dish {
+  color: rgb(241, 80, 107);
+  padding: 0px 6%;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  width: 500px;
+}
+
+.dishInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.644);
+  font-size: 14px;
+  width: 400px;
+  padding: 6% 6% 0 6%;
+}
+
+.priceTag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.644);
+  font-size: 13px;
+  margin-block-start: 5.5em;
+  margin-block-end: 0em;
+  padding: 0px 40px;
+}
+
+#itemCounter {
+  width: 35px;
+  height: 30px;
+  background-color: rgb(241, 80, 107);
+  font-size: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+  border: 1px whitesmoke solid;
+  border-radius: 50px;
+  margin-right: -23%;
+  margin-top: 29px;
+  z-index: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
