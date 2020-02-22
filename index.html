@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>VarukorgProjekt</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul id="navUl">
+          <li class="navLi">
+            <h1>Yummie ♨</h1>
+          </li>
+          <li class="navLi">
+            Levererar till:
+            <span> ODENPLAN 2C, 113 22 Stockholm, Sverige ↓</span>
+          </li>
+          <li class="navLi">När: <span>Nu ↓ </span></li>
+          <li class="navLi">SV |<span>EN</span></li>
+          <li class="navLi">INLOGGAD 유웃</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="itemsDiv">
+        <h2 id="headingText">
+          Pong Skrapan <span id="h2span"> ★ 4/5 (103) ● Thai ● Sushi</span>
+        </h2>
+        <hr />
+        <ul id="productList"></ul>
+      </div>
+
+      <p id="itemCounter"></p>
+      <button id="basketBtn">
+        ♨
+      </button>
+
+      <section id="basket" class="hide">
+        <h2 class="basketH2">Din beställning</h2>
+        <button id="clear">Töm varukorg</button>
+
+        <ul id="basketList"></ul>
+        <p id="total"></p>
+        <a href="orderpage.html"><button id="order">Beställ</button></a>
+      </section>
+    </main>
+    <footer><a href="items.json">JSON-fil</a></footer>
+    <script src="main.js"></script>
+  </body>
+</html>

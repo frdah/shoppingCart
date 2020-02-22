@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Sashimi Moriawase",
+    "price": "195:-",
+    "info": "Blandning av rå fisk.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643079.jpg?width=302",
+    "id": "0",
+    "count": "0"
+  },
+
+  {
+    "name": "Shake Avocado",
+    "price": "130:-",
+    "info": "5 lax och 5 avokado.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643080.jpg?width=302",
+    "id": "1",
+    "count": "0"
+  },
+
+  {
+    "name": "Spicy Tuna",
+    "price": "115:-",
+    "info": "Rulle med tonfisk och japansk chilimajonnäs.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643085.jpg?width=302",
+    "id": "2",
+    "count": "0"
+  },
+
+  {
+    "name": "Yum Oumph",
+    "price": "80:-",
+    "info": "Thailändsk Oumphsallad med chili och lime.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643125.jpg?width=302",
+    "id": "3",
+    "count": "0"
+  },
+
+  {
+    "name": "Gaeng Ped",
+    "price": "108:-",
+    "info": "Gryta med röd curry och kokosmjölk.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643090.jpg?width=302",
+    "id": "4",
+    "count": "0"
+  },
+
+  {
+    "name": "Vegetariska Gyoza",
+    "price": "65:-",
+    "info": "6 stycken.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643119.jpg?width=302",
+    "id": "5",
+    "count": "0"
+  },
+
+  {
+    "name": "Xia Shao Mai",
+    "price": "65:-",
+    "info": "4 stycken. Kyckling, räkor och koriander.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643121.jpg?width=302",
+    "id": "6",
+    "count": "0"
+  },
+
+  {
+    "name": "Lab gai",
+    "price": "65:-",
+    "info": "Stark kycklingsallad med chili, lime och koriander.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643112.jpg?width=302",
+    "id": "7",
+    "count": "0"
+  },
+
+  {
+    "name": "Padthai",
+    "price": "108:-",
+    "info": "Wokade risnudlar med grönsaker.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643095.jpg?width=302",
+    "id": "8",
+    "count": "0"
+  },
+
+  {
+    "name": "Kao Pad",
+    "price": "108:-",
+    "info": "Stekt ris med grönsaker.",
+    "picture": "https://images.deliveryhero.io/image/fd-op/Products/1643091.jpg?width=302",
+    "id": "9",
+    "count": "0"
+  }
+]
